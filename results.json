@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-25",
+  "source": "Transcribed from the reported v2 terminal output; not the original raw result file",
+  "benchmark_version": 2,
+  "subscription": "ChatGPT Plus",
+  "model_requested": "gpt-6.2-sol",
+  "effort_requested": "high",
+  "expected_reference_queries": 640,
+  "order": ["local", "cloud"],
+  "local": {
+    "quota_before_percent": {"five_hour": 1, "weekly": 79},
+    "quota_consumed_percentage_points": {"five_hour": 6, "weekly": 1},
+    "reported_correct": true
+  },
+  "cloud": {
+    "quota_before_percent": {"five_hour": 7, "weekly": 80},
+    "quota_consumed_percentage_points": {"five_hour": 4, "weekly": 1},
+    "reported_correct": true,
+    "reported_result": "BENCHMARK_RESULT 86a209694ba7f5c52de8b835940f3de01feeb85924c22615ffd2dc4f75142401 640"
+  },
+  "cloud_local_ratio": {
+    "five_hour": {"estimate": 0.667, "lower": 0.429, "upper": 1.0, "adequate_resolution": false},
+    "weekly": {"estimate": 1.0, "lower": 0.0, "upper": null, "adequate_resolution": false}
+  }
+}
