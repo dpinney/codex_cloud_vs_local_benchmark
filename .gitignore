@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+codex_benchmark_v2_results.json*
